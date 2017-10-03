@@ -4,7 +4,8 @@
   "description": "Scrape content from treehouse site",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "Kevin Stradtman",
   "license": "ISC",
@@ -12,6 +13,6 @@
     "body-parser": "^1.17.2",
     "cheerio": "^1.0.0-rc.2",
     "json2csv": "^3.11.1",
-    "request": "^2.81.0"
+    "request": "^2.81.0",
   }
 }
