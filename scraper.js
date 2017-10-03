@@ -25,7 +25,7 @@ checkDirectory("./data");
 
     //makes the directory data
 var errorMessage = function(error) {
-    console.log('There has been an error in the code, this is the error: ', error);
+    console.log('Alert: There was an error, check your settings, or try back later');
 };
 var contentURL = "http://shirts4mike.com/";
 //Labels for the CSV
